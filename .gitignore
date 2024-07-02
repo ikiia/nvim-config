@@ -1,0 +1,8 @@
+pack
+tags
+plugin
+en.utf-8.add.spl
+*.exe
+.netrwhist
+*.log
+.DS_Store

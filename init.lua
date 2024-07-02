@@ -1,0 +1,11 @@
+require("options")
+require("plugins")
+
+require("plugins.cmp")
+require("plugins.lsp-format")
+require("plugins.lspconfig")
+require("plugins.mason")
+require("plugins.no-clown-fiesta")
+require("plugins.telescope")
+require("plugins.tree")
+require("plugins.treesitter")
