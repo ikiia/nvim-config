@@ -14,11 +14,11 @@ vim.o.background = "dark"
 
 vim.bo.fileencoding = "utf-8"
 vim.bo.smartindent = true
-vim.bo.tabstop = 2
-vim.bo.softtabstop = 2
-vim.bo.shiftwidth = 2
 vim.bo.expandtab = true
 
 vim.wo.number = true
 vim.wo.relativenumber = true
 
+vim.opt.tabstop = 2
+vim.opt.softtabstop = 2
+vim.opt.shiftwidth = 2

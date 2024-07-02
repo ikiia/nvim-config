@@ -1,7 +1,7 @@
 require("lsp-format").setup({ })
 
-local on_attach = function(client, bufnr)
-  require("lsp-format").on_attach(client, bufnr)
+local on_attach = function(_, bufnr)
+  require("lsp-format").on_attach(_, bufnr)
 
   local function buf_set_option(...)
     vim.api.nvim_buf_set_option(bufnr, ...)
