@@ -1,9 +1,8 @@
 require("no-clown-fiesta").setup({
   transparent = true,
   styles = {
-    comments = {
-      italic = true
-    },
+    comments = { italic = true },
+		lsp = { underline = true }
   }
 })
 
